@@ -390,7 +390,7 @@ async fn main() {
     println!("🚀 P_NL Server (거탐) starting on port 8090 (HTTP)...");
 
     // DB 연결
-    let db_url = "mysql://user_accunt:Aa102331253910!@127.0.0.1:3306/maplestory_bot";
+    let db_url = "mysql://user_account:Aa102331253910!@127.0.0.1:3306/maplestory_bot";
     let pool = MySqlPoolOptions::new()
         .max_connections(20)
         .connect(db_url)
